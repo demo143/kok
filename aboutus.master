@@ -1,0 +1,146 @@
+﻿<%@ master language="C#" autoeventwireup="false" inherits="client_side_webform_aboutus, App_Web_o00qpjiz" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Railway Reservation System</title>
+<meta name="keywords" content="" />
+<meta name="Premium Series" content="" />
+<link href="Clientsidedefault.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="../StyleSheet2.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            font-size: xx-large;
+            color: #000040;
+        }
+        .style2
+        {
+            text-align: justify;
+            text-indent: -.4in;
+            font-size: 12.0pt;
+            font-family: "Times New Roman", serif;
+            margin-left: .5in;
+            margin-right: 0in;
+            margin-top: 0in;
+            margin-bottom: .0001pt;
+        }
+        .style3
+        {
+            text-indent: -.4in;
+            font-size: 12.0pt;
+            font-family: "Times New Roman", serif;
+            margin-left: .5in;
+            margin-right: 0in;
+            margin-top: 0in;
+            margin-bottom: .0001pt;
+        }
+        .style6
+        {
+            font-weight: bold;
+        }
+        .style7
+        {
+            color: #000040;
+        }
+        .MsoNormal
+        {
+            height: 37px;
+            margin-left: 0px;
+        }
+    </style>
+    </head>
+<body bgcolor="#800000">
+    <form id="form1" runat="server">
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1>RAILWAY RESERVation system</h1>
+	    <asp:Image ID="Image1" runat="server" Height="88px" 
+                ImageUrl="~/image/New Ticket Reservation system by Indian Railway.jpg" 
+                style="margin-top: 0px" Width="405px" />
+	</div>
+	<div id="menu">
+		<ul id="main">
+			<li class="current_page_item">
+                
+               <li style="background-color: #800000"> <asp:LinkButton ID="LinkButton3" 
+                       runat="server" Height="26px">AboutUs</asp:LinkButton> </li>
+               <li>
+                   <asp:LinkButton ID="LinkButton4" runat="server" Height="26px">ContactUs</asp:LinkButton></li>
+                   </li>
+		</ul>
+		
+	</div>
+	
+</div>
+<!-- end header -->
+<div id="wrapper">
+	<div id="page">
+		<div id="content" 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            style="border: thick double #800000; height: 613px; margin-left: 208px; text-align: center; margin-top: 0px;">
+			<strong><span class="style1">About This Website<br />
+            </span></strong>
+            <br />
+		    <asp:Image ID="Image2" runat="server" Height="93px" 
+                ImageUrl="~/image/steam_locomotive_force_railway_238376.jpg" Width="276px" />
+            <p class="MsoNormal">
+                <span class="style7"><b>This project aims at development of an Railway 
+                Reservation Utility which facilitates the Railway User to manage their 
+                reservations online.</b></p>
+            <p class="MsoNormal">
+                <![if !supportLists]>
+                <span style="font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings"><span style="mso-list:Ignore"><span class="style6" 
+                    style="font-style: normal; font-variant: normal; font-size: 7.0pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;</span></span></span><![endif]><span 
+                    class="style6" style="mso-spacerun:yes">&nbsp;</span><b>The User is required to 
+                register on the server for getting access to the database and query result 
+                retrieval. Upon registration, each user has an account which is essentially the 
+                ‘view level’ for the user.</b></p>
+            <p class="MsoNormal">
+                <b>User entered during registration and permits the user to get access to his 
+                past reservations, enquire about travel fare and availability seats, make afresh 
+                reservations, update his account details, etc.</b></p>
+            <p class="style2">
+                <b><o:p>&nbsp;</o:p></b><![if !supportLists]><span style="font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings"><span style="mso-list:Ignore"><span class="style6" 
+                    style="font-style: normal; font-variant: normal; font-size: 7.0pt; line-height: normal; font-family: 'Times New Roman';">
+                </span></span></span><![endif]><b>Retrieval of forgotten passwords.</b></p>
+            <p class="style3">
+                <b><o:p>&nbsp;</o:p>Automatic fare calculation from stage master, in new updating of 
+                fare in stage master will automatically reflect in all new reservation.</b></p>
+            <p class="style6">
+                User can reserve or cancel their ticket&nbsp; ,View, modify or cancel past 
+                reservations.</p>
+		</div>
+		<b>
+		<!-- end content -->
+		<!-- start sidebars -->
+		<!-- end sidebars -->
+	    <br />
+	    </b></span>
+	</div>
+	<!-- end page -->
+</div>
+<div id="footer">
+	<p class="copyright" 
+        
+        
+        
+        style="font-family: 'times New Roman', Times, serif; font-size: medium; font-weight: bold; color: #FFFF00; width: 971px; background-color: #800000;">&nbsp;Devloped 
+        By :&nbsp; Rakesh And Kuldeep</p>
+</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,97 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="client_side_webform_MasterPage, App_Web_o00qpjiz" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Railway Reservation System</title>
+<meta name="keywords" content="" />
+<meta name="Premium Series" content="" />
+<link href="Clientsidedefault.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="../StyleSheet2.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            font-size: medium;
+            color: #800000;
+        }
+        .style2
+        {
+            font-size: x-large;
+            color: #000040;
+            text-decoration: underline;
+        }
+    </style>
+    </head>
+<body bgcolor="#800000">
+    <form id="form1" runat="server">
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1>RAILWAY RESERVation system</h1>
+	    <asp:Image ID="Image1" runat="server" Height="88px" 
+                ImageUrl="~/image/New Ticket Reservation system by Indian Railway.jpg" 
+                style="margin-top: 0px" Width="405px" />
+	</div>
+	<div id="menu">
+		<ul id="main">
+			<li class="current_page_item">
+                
+               <li style="background-color: #800000"> <asp:LinkButton ID="LinkButton3" 
+                       runat="server" Height="26px">AboutUs</asp:LinkButton> </li>
+               <li>
+                   <asp:LinkButton ID="LinkButton4" runat="server" Height="26px">ContactUs</asp:LinkButton></li>
+                   </li>
+		</ul>
+		
+	</div>
+	
+</div>
+<!-- end header -->
+<div id="wrapper">
+	<div id="page">
+		<div id="content" 
+            
+            
+            
+            
+            
+            
+            style="border: thick double #800000; height: 406px; margin-left: 197px; text-align: center; margin-top: 44px;">
+			<br />
+            <strong><span class="style2">Acknowledgement</span></strong><br />
+            <br />
+            <br />
+            <br />
+            <strong><span class="style1">Congratulation !...<br />
+            <br />
+            You are&nbsp; Successfully Register...<br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            </span>
+            <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="Navy" 
+                PostBackUrl="~/client side webform/mainrunpage.aspx" ToolTip="click here">Login</asp:LinkButton>
+            </strong>
+		</div>
+		<!-- end content -->
+		<!-- start sidebars -->
+		<!-- end sidebars -->
+	    <br />
+	</div>
+	<!-- end page -->
+</div>
+<div id="footer">
+	<p class="copyright" 
+        
+        
+        
+        style="font-family: 'times New Roman', Times, serif; font-size: medium; font-weight: bold; color: #FFFF00; width: 971px; background-color: #800000;">&nbsp;Devloped 
+        By :&nbsp; Rakesh And Kuldeep</p>
+</div>
+    </form>
+</body>
+</html>

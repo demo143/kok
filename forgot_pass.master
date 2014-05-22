@@ -1,0 +1,198 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="admin_side_webform_forgot_pass, App_Web_o00qpjiz" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Railway Reservation System</title>
+<meta name="keywords" content="" />
+<meta name="Premium Series" content="" />
+<link href="Clientsidedefault.css" rel="stylesheet" type="text/css" media="screen" />
+     <style type="text/css">
+        .style20
+        {
+            font-family: "Times New Roman", Times, serif;
+            font-size: xx-large;
+            color: #000040;
+        }
+        .style36
+        {
+            width: 99%;
+            height: 276px;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+        .style37
+        {
+            height: 29px;
+        }
+        .style39
+        {
+            height: 30px;
+        }
+        .style40
+        {
+            height: 25px;
+        }
+        .style41
+        {
+            width: 1110px;
+            text-align: left;
+        }
+        .style43
+        {
+            height: 25px;
+            width: 1110px;
+        }
+        .style44
+        {
+            height: 29px;
+            width: 1110px;
+        }
+        .style45
+        {
+            height: 30px;
+            width: 1110px;
+        }
+        .style46
+        {
+            height: 12px;
+            width: 1110px;
+        }
+        .style47
+        {
+            height: 12px;
+        }
+    </style>
+    </head>
+<body bgcolor="#800000">
+    <form id="form1" runat="server">
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1>RAILWAY RESERVation system</h1>
+	    <asp:Image ID="Image1" runat="server" Height="88px" 
+                ImageUrl="~/image/New Ticket Reservation system by Indian Railway.jpg" 
+                style="margin-top: 0px" Width="405px" />
+	</div>
+	<div id="menu">
+		<ul id="main">
+			<li class="current_page_item">
+                
+               <li style="background-color: #800000"> <asp:LinkButton ID="LinkButton3" 
+                       runat="server" Height="26px">AboutUs</asp:LinkButton> </li>
+               <li>
+                   <asp:LinkButton ID="LinkButton4" runat="server" Height="26px">ContactUs</asp:LinkButton></li>
+                   </li>
+		</ul>
+		
+	</div>
+	
+</div>
+<!-- end header -->
+<div id="wrapper">
+	<div id="page">
+		<div id="content" 
+            
+            
+            
+            
+            
+            
+            
+            
+            style="border: thick double #800000; height: 516px; margin-left: 204px; text-align: center; margin-top: 0px;">
+			<span class="style20"><strong>Forgot Password</strong></span>&nbsp;<br />
+            
+            <asp:Image ID="Image2" runat="server" Height="157px" 
+                ImageUrl="~/image/button/members-login-right.jpg" />
+                    <table align="center" class="style36">
+                        <tr>
+                            <td class="style41" style="font-weight: 700; color: #000040">
+                        Enter User Name
+                                :
+                                                                             </td>
+                            <td style="text-align: left">
+                        <asp:TextBox ID="TextBox1" runat="server" Height="35px"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style46">
+                            </td>
+                            <td class="style47" style="text-align: left">
+                        <asp:Button ID="Button1" runat="server" BorderStyle="None" CssClass="b2" 
+                            onclick="Button1_Click" Text="Procced" Height="35px" Width="80px" />
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style43">
+                            </td>
+                            <td class="style40" style="text-align: left">
+                                <br />
+                                
+                        <asp:Label ID="Label1" runat="server" Font-Bold="True" ForeColor="Maroon" Height="26px" 
+                                    Width="371px"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style41">
+                        <asp:Label ID="l1" runat="server" Text="Enter Your Answer :" 
+                                    style="font-weight: 700; color: #000040; text-align: left;"></asp:Label>
+                            </td>
+                            <td style="text-align: left">
+                        <asp:TextBox ID="TextBox2" runat="server" Height="30px"></asp:TextBox>
+                            &nbsp;<asp:Label ID="Label3" runat="server" Font-Bold="True" ForeColor="Red"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style44">
+                            </td>
+                            <td class="style37" style="text-align: left">
+                        <asp:Button ID="Button2" runat="server" BorderStyle="None" CssClass="b2" 
+                            Font-Bold="True" Text="Submit" Height="35px" onclick="Button2_Click" 
+                                    Width="81px" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style45">
+                            </td>
+                            <td class="style39" style="text-align: left">
+                        <asp:Label ID="Label2" runat="server" Font-Bold="True" ForeColor="Maroon" Height="26px" 
+                                    Width="370px"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style41">
+                                &nbsp;</td>
+                            <td style="text-align: left">
+                        <asp:Button ID="Button3" runat="server" BorderStyle="None" CssClass="b2" 
+                            Font-Bold="True" Text="Ok" Height="35px" onclick="Button3_Click" Width="65px" />
+&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button4" runat="server" BorderStyle="None" CssClass="b2" 
+                            Font-Bold="True" Text="Retry" Height="35px" Width="65px" />
+                            </td>
+                        </tr>
+            </table>
+            <br />
+            <br />
+		</div>
+		<!-- end content -->
+		<!-- start sidebars -->
+		<!-- end sidebars -->
+	    <br />
+	</div>
+	<!-- end page -->
+</div>
+<div id="footer">
+	<p class="copyright" 
+        
+        
+        
+        style="font-family: 'times New Roman', Times, serif; font-size: medium; font-weight: bold; color: #FFFF00; width: 971px; background-color: #800000;">&nbsp;Devloped 
+        By :&nbsp; Rakesh </p>
+</div>
+    </form>
+</body>
+</html>

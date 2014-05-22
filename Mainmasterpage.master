@@ -1,0 +1,229 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="admin_side_webform_Mainmasterpage, App_Web_o00qpjiz" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Railway Reservation System</title>
+<meta name="keywords" content="" />
+<meta name="Premium Series" content="" />
+<link href="Clientsidedefault.css" rel="stylesheet" type="text/css" media="screen" />
+  
+    <style type="text/css">
+        .style1
+        {
+            width: 90%;
+            height: 251px;
+            margin-left: 5px;
+            margin-top: 0px;
+        }
+        .style7
+        {
+            height: 30px;
+            width: 106px;
+            text-align: left;
+            color: #800000;
+            font-size: xx-large;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style2
+        {
+            height: 30px;
+            color: #800000;
+            font-weight: 700;
+            font-size: xx-large;
+            font-family: "Times New Roman", Times, serif;
+            text-align: left;
+        }
+        .style5
+        {
+            height: 69px;
+            width: 177px;
+        }
+        .style8
+        {
+            height: 69px;
+            width: 106px;
+        }
+        .style3
+        {
+            height: 69px;
+        }
+        .style6
+        {
+            width: 177px;
+            text-align: left;
+        }
+        .style9
+        {
+            width: 106px;
+        }
+        .style17
+        {
+            height: 30px;
+            width: 177px;
+        }
+        .style19
+        {
+            height: 27px;
+            width: 106px;
+        }
+        .style20
+        {
+            height: 27px;
+        }
+        .style21
+        {
+            height: 27px;
+            width: 177px;
+        }
+        </style>
+</head>
+<body bgcolor="#800000">
+    <form id="form1" runat="server">
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1>RAILWAY RESERVation system</h1>
+	    <asp:Image ID="Image1" runat="server" Height="86px" 
+                ImageUrl="~/image/New Ticket Reservation system by Indian Railway.jpg" 
+                style="margin-top: 0px" Width="431px" />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</div>
+	<div id="menu">
+		<ul id="main">
+			<li class="current_page_item">
+                
+               <li style="background-color: #800000"> 
+                   <asp:LinkButton ID="LinkButton3" 
+                       runat="server" Height="28px" 
+                       
+                        CausesValidation="False" OnClick="LinkButton3_Click">AboutUs</asp:LinkButton> </li>
+               <li>
+                   <asp:LinkButton ID="LinkButton4" runat="server" Height="29px" 
+                      
+                       CausesValidation="False" OnClick="LinkButton4_Click">ContactUs</asp:LinkButton></li>
+                   </li>
+		</ul>
+		
+	</div>
+	
+</div>
+<!-- end header -->
+<div id="wrapper">
+	<!-- start page -->
+	<div id="page">
+		<!-- start content -->
+		<div id="content" 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            style="border: thick double #800000; height: 313px; margin-left: 176px; text-align: center; margin-top: 31px;">
+			<br />
+            <table class="style1">
+                <tr>
+                    <td class="style17">
+                    </td>
+                    <td class="style7">
+                        <strong style="color: #000040">Login</strong></td>
+                    <td class="style2">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </td>
+                </tr>
+                <tr>
+                    <td class="style5">
+                        <asp:Image ID="Image2" runat="server" Height="124px" 
+                            ImageUrl="~/images/qw.png" Width="174px" />
+                    </td>
+                    <td class="style8" 
+                        style="font-family: 'times New Roman', Times, serif; font-size: medium; font-weight: bold; color: #000040">
+                        User Name
+                        :<br />
+                        <br />
+                        Password&nbsp;&nbsp;&nbsp; 
+                        :<br />
+                    </td>
+                    <td class="style3">
+                        <br />
+                        <asp:TextBox ID="TextBox1" runat="server" Height="26px" Width="145px" 
+                            style="margin-left: 0px; text-align: left;"></asp:TextBox>
+                        <br />
+                        <br />
+                        <asp:TextBox ID="TextBox2" runat="server" Height="26px" Width="145px" 
+                            TextMode="Password"></asp:TextBox>
+                        <br />
+                        <br />
+                        <asp:Label ID="Label1" runat="server" ForeColor="Red" style="text-align: left"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style21">
+                    </td>
+                    <td class="style19">
+                    </td>
+                    <td class="style20">
+                        &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="45px" 
+                            ImageUrl="~/image/button/login-btn.png" onclick="ImageButton1_Click" 
+                            Width="98px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style21">
+                        </td>
+                    <td class="style19">
+                        </td>
+                    <td class="style20">
+                        <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" 
+                            Font-Size="Small" Font-Underline="True" ForeColor="Navy" PostBackUrl="~/registration2.aspx"  
+                          >SingUp</asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style6">
+                        &nbsp;</td>
+                    <td class="style9">
+                        &nbsp;</td>
+                    <td>
+                        <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="True" 
+                            Font-Size="Small" Font-Underline="True" ForeColor="Navy" PostBackUrl="~/forgotpassword.aspx" 
+                           >Forgot Password ?</asp:LinkButton>
+                        <br />
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:Image ID="Image3" runat="server" BorderColor="Maroon" BorderStyle="Double" 
+                BorderWidth="8px" Height="172px" 
+                ImageUrl="~/image/steam_locomotive_force_railway_238376.jpg" 
+                style="margin-left: 0px; margin-top: 0px" Width="207px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+            <br />
+		</div>
+		<!-- end content -->
+		<!-- start sidebars -->
+		<!-- end sidebars -->
+	    <br />
+	</div>
+	<!-- end page -->
+</div>
+<div id="footer">
+	<p class="copyright" 
+        
+        
+        
+        style="font-family: 'times New Roman', Times, serif; font-size: medium; font-weight: bold; color: #FFFF00; width: 975px; background-color: #800000;">Devloped By :&nbsp; Rakesh </p>
+</div>
+    </form>
+</body>
+</html>

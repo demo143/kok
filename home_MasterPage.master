@@ -1,0 +1,140 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="admin_side_webform_home_MasterPage, App_Web_o00qpjiz" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Home Page</title>
+<meta name="keywords" content="" />
+<meta name="Premium Series" content="" />
+<link href="Clientsidedefault.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            color: #800000;
+        }
+    </style>
+<script>
+   
+        window.history.forward(); 
+
+    </script>
+</head>
+<body>
+  
+    <form id="form1" runat="server">
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1>railway reservation system</h1>
+        <p>&nbsp;<span class="style1"><strong>welcome :</strong></span>&nbsp;&nbsp;
+            <asp:Label ID="Label1" runat="server" Font-Bold="False" 
+                Font-Names="Times New Roman" ForeColor="#400080"></asp:Label>
+        &nbsp;&nbsp;
+   
+        </p>
+	</div>
+	<div id="menu">
+		<ul id="main">
+		<li>
+            <asp:LinkButton ID="LinkButton1" runat="server" Height="25px" 
+                PostBackUrl="~/hompage_run_master.aspx" ToolTip="Home">Home</asp:LinkButton></li>
+			<li>
+                <asp:LinkButton ID="LinkButton2" runat="server" Height="23px" 
+                    PostBackUrl="~/FeedBack.aspx" ToolTip="FeedBack" >Feedback</asp:LinkButton></li>
+                            <li>
+                                <asp:LinkButton ID="LinkButton6" runat="server" Width="76px" Height="24px" 
+                                    PostBackUrl="~/client side webform/vs.aspx" Enabled="False"  
+                                   >View Status</asp:LinkButton></li>
+                                <li>
+                                    <asp:LinkButton ID="LinkButton7" runat="server" Width="53px" Height="23px" 
+                                        PostBackUrl="~/ViewProfile.aspx" ToolTip="Your Profile" 
+                                       >Profile</asp:LinkButton></li>
+                                    <li>
+                                    <li>
+                                        <asp:LinkButton ID="LinkButton3" runat="server" Height="24px" 
+                                            PostBackUrl="~/FareRule_Detail.aspx" 
+                                            ToolTip="Fare Rule Detail">Fare Rule</asp:LinkButton>
+                                    </li>
+                                        <asp:LinkButton ID="LinkButton8" runat="server" Height="24px" 
+                                            Width="45px" PostBackUrl="~/mainrunpage.aspx" 
+                                            onclick="LinkButton8_Click">Log out</asp:LinkButton></li>
+
+		</ul>
+	</div>
+	
+</div>
+<!-- end header -->
+<div id="wrapper">
+	<!-- start page -->
+	<div id="page">
+		<div id="sidebar1" class="sidebar">
+			<ul>
+				<li>
+					<h2>Other Menu</h2>
+					<ul>
+						<li style="border: thin none #000000; background-color: #800000; color: #FFFFFF; height: 21px;">
+                            <asp:LinkButton ID="LinkButton9" runat="server" ForeColor="White" 
+                                PostBackUrl="~/View_Station_Master_Detail.aspx" 
+                                ToolTip="Station Detail">Station Master</asp:LinkButton>
+                        </li>
+						<li style="border: thin none #000000; background-color: #800000; color: #FFFFFF; height: 20px;">
+                            <asp:LinkButton ID="LinkButton10" runat="server" ForeColor="White" 
+                                PostBackUrl="~/View_Train_Detail.aspx" 
+                                ToolTip="Train Detail">Train Master</asp:LinkButton>
+                        </li>
+						<li style="border: thin none #000000; background-color: #800000; color: #FFFFFF; height: 21px;">
+                            <asp:LinkButton ID="LinkButton11" runat="server" ForeColor="White" 
+                                PostBackUrl="~/View_Train_Schedule.aspx" 
+                                ToolTip="Train Schedule Detail">Train Schedule</asp:LinkButton>
+                        </li>
+						<li style="border: thin none #000000; background-color: #800000; color: #FFFFFF; height: 21px;">
+                            <asp:LinkButton ID="LinkButton12" runat="server" ForeColor="White" 
+                                PostBackUrl="~/Prn_Detail.aspx">PRN Enquiry </asp:LinkButton>
+                        </li>
+						<li style="border: thin none #000000; background-color: #800000; color: #FFFFFF; height: 21px;">
+                            <asp:LinkButton ID="LinkButton13" runat="server" ForeColor="White" 
+                                PostBackUrl="~/FindTrain.aspx" 
+                                ToolTip="Ticket Booking" >Reservation Ticket</asp:LinkButton></li>
+						<li style="border: thin none #000000; background-color: #800000; color: #FFFFFF; height: 21px;">
+                            <asp:LinkButton ID="LinkButton14" runat="server" BorderColor="Black" 
+                                ForeColor="White" 
+                                ToolTip="Ticket Cancell Detail" PostBackUrl="~/cancel_ticket.aspx">Cancellation Ticket</asp:LinkButton></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- start content -->
+		<div id="content">
+         
+            
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p style="height: 502px; width: 729px;">
+                    <br />
+                    &nbsp;&nbsp; </p>
+
+
+            </asp:ContentPlaceHolder>
+
+		</div>
+		<!-- end content -->
+		<!-- start sidebars -->
+		<!-- end sidebars -->
+	</div>
+	<!-- end page -->
+</div>
+<div id="footer" 
+        
+        
+        style="background-color: #800000; background-repeat: inherit; width: 960px;" 
+        dir="ltr">
+	<p class="copyright" 
+        
+        
+        style="background-color: #800000; background-repeat: inherit; color: #FFFF00; font-weight: 700;">&nbsp;Devloped By :&nbsp; Rakesh</p>
+</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,164 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="home_MasterP, App_Web_o00qpjiz" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Home Page</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+     <link href="admin_default.css" rel="stylesheet" type="text/css"  media="screen" />
+ 
+    <link href="admin_StyleSheet.css" rel="stylesheet" type="text/css"  media="screen" />
+    <script>
+
+        window.history.forward(); 
+
+    </script>
+    <style type="text/css">
+
+
+        .entry
+        {
+            text-align: center;
+        }
+        
+        .style1
+        {
+            height: 13px;
+            width: 621px;
+        }
+        
+        .style2
+        {
+            height: 110px;
+            width: 1135px;
+        }
+        .style3
+        {
+            width: 781px;
+        }
+        
+        .style5
+        {
+            height: 593px;
+            width: 525px;
+        }
+        .style6
+        {
+            padding: 40px 40px 0 40px;
+            width: 443px;
+            height: 4px;
+            margin-top: 13px;
+        }
+        
+        .style8
+        {
+            font-weight: normal;
+            font-size: xx-large;
+            font-family: "Times New Roman", Times, serif;
+            color: #000040;
+            text-align: center;
+        }
+        
+        .style9
+        {
+            font-size: larger;
+        }
+        
+        </style>
+</head>
+<body style="height: 824px; width: 1223px;">
+    <form id="form1" runat="server">
+<!-- start header -->
+<div id="header" 
+        style="color: #000080; font-weight: bold; font-family: 'Arial Black';" 
+        class="style2">
+	<h1 class="style8"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="style9">&nbsp;Railway Reservation System</span></strong></h1>
+	<br />
+    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome :<asp:Label 
+        ID="l1" runat="server" ForeColor="#400000" 
+        style="font-family: Century; text-align: center"></asp:Label>
+        </div>
+        <br />
+        <asp:HyperLink ID="add_remove_train" runat="server" CssClass="links" 
+        NavigateUrl="~/art.aspx" Font-Bold="True" 
+        ForeColor="White">Add/Remove Train</asp:HyperLink>
+       
+    <asp:HyperLink ID="add_remove_user" runat="server" CssClass="links" 
+        NavigateUrl="~/add_remove_userr.aspx" Font-Bold="True" 
+        ForeColor="White">Add/Remove User</asp:HyperLink>
+
+    <asp:HyperLink ID="cancell_ticket" runat="server" CssClass="links" 
+        NavigateUrl="~/Cancellationweb_page.aspx" 
+        ToolTip="Cancellation" Font-Bold="True" ForeColor="White">Cancel Ticket</asp:HyperLink>
+
+    <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="White" 
+        PostBackUrl="~/feedback1.aspx" Font-Bold="True">FeedBack</asp:LinkButton>
+
+        &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CssClass="links" 
+        PostBackUrl="~/bookticket.aspx" Font-Bold="True" 
+        ForeColor="White">Book Ticket</asp:LinkButton>
+
+    <asp:LinkButton ID="LinkButton3" runat="server" CssClass="links" 
+        PostBackUrl="~/showbank_detail.aspx" Font-Bold="True" 
+        ForeColor="White">Bank Transaction</asp:LinkButton>
+        <asp:HyperLink ID="logout" runat="server" 
+        Font-Bold="True" 
+        NavigateUrl="~/mainrunpage.aspx" ToolTip="Log out" 
+        CssClass="links" ForeColor="White">LogOut</asp:HyperLink>
+</body>
+</html>
+    <div id="page" class="style3">
+	    <div id="content" class="style5">
+		    <div class="style6">
+   
+                <br />
+    
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <p>
+                        <asp:Image ID="Image2" runat="server" Height="486px" 
+                            ImageUrl="~/image/main_header_big3_white23.jpg" Width="462px" />
+                    </p>
+                </asp:ContentPlaceHolder>
+            <br />
+            <br />
+            <br />
+    
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+		</div>
+	</div>
+	<!-- end content -->
+	<!-- start sidebar -->
+	<!-- end sidebar -->
+	<div id="extra" style="clear: both;">&nbsp;</div>
+</div>
+    <div id="footer">
+	    <p class="style1" 
+            style="color: #000080; font-size: medium; font-weight: bold; font-style: normal;"> Devloped by : Rakesh&nbsp;&nbsp; &amp; Kuldeep</p>
+</div>
+<!-- end footer -->
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,199 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url(admin_images/img01.jpg) repeat-x;
+	font: 13px Georgia, "Times New Roman", Times, serif;
+	color: #666666;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+input, textarea {
+	margin-left: 6px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1, h1 a, h2, h2 a, h3, h3 a {
+	margin: 0;
+	text-decoration: none;
+	color: #333333;
+}
+
+h1 {
+	letter-spacing: -2px;
+	font-size: 3.2em;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-size: 2em;
+}
+
+h3 {
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+
+p, ol, ul {
+	margin: 0 0 0em 0px;
+	line-height: 200%;
+    color: #800000;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Times New Roman", Times, serif;
+}
+
+blockquote {
+	margin: 0 0 0 2.5em;
+	padding-left: 1em;
+	border-left: 5px solid #16B1B0;
+}
+
+a {
+	color: #16B1B0;
+    font-size: medium;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+/* Header */
+
+#header {
+	width: 1127px;
+	margin: 0 auto;
+}
+#head {
+	width: 963px;
+	height: 31px;
+	margin: 24px 0px 0 auto;
+}
+
+#header h1, #header p {
+	margin: 0;
+}
+
+#header h1 {
+	float: left;
+	padding: 34px 0 0 0;
+    width: 590px;
+    height: 50px;
+}
+
+#header p {
+	float: right;
+	padding: 42px 0 0 0;
+	font-size: 1.8em;
+    width: 537px;
+}
+
+#header a {
+	text-decoration: none;
+	color: #333333;
+}
+
+
+
+/* Page */
+
+#page {
+	width: 1000px;
+	background: url(admin_images/img05.gif);
+    margin-left: 204px;
+    margin-right: 0px;
+    margin-bottom: 0;
+}
+
+#extra {
+	background: url(admin_images/img06.gif) no-repeat left bottom;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	background: url(admin_images/img03.gif) no-repeat;
+}
+
+.post {
+	padding: 40px 40px 0 40px;
+    width: 445px;
+}
+
+.post ol, .post ul {
+	list-style-position: inside;
+}
+
+
+
+.links {
+    /*border-color : inherit;*/
+    border-width: 2px;
+    padding: 1px 10px;
+    color :Menu;
+	font-size:medium;
+
+
+
+	
+	
+	
+	
+}
+
+ .links a:hover   
+ {
+     font-weight: bold;
+	text-decoration:underline;
+	display:inline-block;
+	cursor:move;
+
+	
+	
+}
+
+
+
+
+
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 1256px;
+	margin: 8px auto 0 auto;
+	padding: 30px 0;
+	background: url(admin_images/img11.gif) no-repeat;
+    height: 0px;
+}
+
+#footer p {
+	margin: 0 0 5px 0;
+	text-align: center;
+	line-height: normal;
+	font-size: .9em;
+}
+
+#footer a {
+	text-decoration: none;
+}
+

@@ -1,0 +1,176 @@
+﻿<%@ master language="C#" autoeventwireup="false" inherits="client_side_webform_contactus, App_Web_o00qpjiz" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Railway Reservation System</title>
+<meta name="keywords" content="" />
+<meta name="Premium Series" content="" />
+<link href="Clientsidedefault.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="../StyleSheet2.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            width: 91%;
+            height: 283px;
+            margin-left: 22px;
+        }
+        .style16
+        {
+            height: 40px;
+            width: 177px;
+        }
+        .style12
+        {
+            height: 40px;
+            text-align: left;
+        }
+        .style6
+        {
+            width: 177px;
+        }
+        .style19
+        {
+            width: 125px;
+        }
+        .style20
+        {
+            font-family: "Times New Roman", Times, serif;
+            font-size: xx-large;
+            color: #000040;
+        }
+        .style21
+        {
+            height: 40px;
+            width: 125px;
+        }
+        .style22
+        {
+            height: 16px;
+            width: 177px;
+        }
+        .style23
+        {
+            height: 16px;
+            width: 125px;
+        }
+        .style24
+        {
+            height: 16px;
+            text-align: left;
+        }
+        .style33
+        {
+            height: 183px;
+            text-align: left;
+        }
+        .style34
+        {
+            width: 177px;
+            height: 183px;
+        }
+        .style35
+        {
+            width: 125px;
+            height: 183px;
+        }
+        .style36
+        {
+            color: #000040;
+        }
+    </style>
+    </head>
+<body bgcolor="#800000">
+    <form id="form1" runat="server">
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1>RAILWAY RESERVation system</h1>
+	    <asp:Image ID="Image1" runat="server" Height="88px" 
+                ImageUrl="~/image/New Ticket Reservation system by Indian Railway.jpg" 
+                style="margin-top: 0px" Width="405px" />
+	</div>
+	<div id="menu">
+		<ul id="main">
+			<li class="current_page_item">
+                
+               <li style="background-color: #800000"> <asp:LinkButton ID="LinkButton3" 
+                       runat="server" Height="26px">AboutUs</asp:LinkButton> </li>
+               <li>
+                   <asp:LinkButton ID="LinkButton4" runat="server" Height="26px">ContactUs</asp:LinkButton></li>
+                   </li>
+		</ul>
+		
+	</div>
+	
+</div>
+<!-- end header -->
+<div id="wrapper">
+	<div id="page">
+		<div id="content" 
+            
+            
+            
+            
+            
+            
+            style="border: thick double #800000; height: 406px; margin-left: 197px; text-align: center; margin-top: 44px;">
+			<span class="style20"><strong>contact Us</strong></span><br />
+            <br />
+            <table class="style1">
+                <tr>
+                    <td class="style34">
+                        &nbsp;</td>
+                    <td class="style35" 
+                        
+                        
+                        
+                        style="font-family: 'times New Roman', Times, serif; font-size: medium; font-weight: bold; color: #000040">
+                        <br />
+                        Devloper Name :<br />
+                        <br />
+                        Email ID :<br />
+                        <br />
+                        Mobile No :<br />
+                        <br />
+                        <br />
+                    </td>
+                    <td class="style33">
+                        <br />
+                        <span class="style36"><strong>
+                        <br />
+                        Harijan rakesh<br />
+                        <br />
+                        <br />
+                        harijanrakesh1@gmail.com<br />
+                        <br />
+                        8866176478<br />
+                        <br />
+                        <br />
+                        <br />
+                        </strong></span>
+                        <br />
+                    </td>
+                </tr>
+                </table>
+		</div>
+		<!-- end content -->
+		<!-- start sidebars -->
+		<!-- end sidebars -->
+	    <br />
+	</div>
+	<!-- end page -->
+</div>
+<div id="footer">
+	<p class="copyright" 
+        
+        
+        
+        style="font-family: 'times New Roman', Times, serif; font-size: medium; font-weight: bold; color: #FFFF00; width: 971px; background-color: #800000;">&nbsp;Devloped 
+        By :&nbsp; Rakesh And Kuldeep</p>
+</div>
+    </form>
+</body>
+</html>
